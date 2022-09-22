@@ -307,11 +307,60 @@ h2 {
 a {
   color: #fff;
 }
+#partner {
+  text-align: center;
+}
+
+#partner h1,
+#partner p {
+  color: #333;
+  margin-bottom: 20px;
+}
+#partner img {
+  width: 200px;
+  height: 200px;
+}
 
 .footer {
-  text-align: center;
   padding: 10px;
-  justify-content: center;
   background-color: #4aa9e6;
   color: white;
+  text-align: center;
+}
+.bungkuscontact {
+  display: flex;
+  justify-content: space-around;
+  background-color: #4aa9e6;
+}
+.bungkuscontact .contact {
+  width: 300px;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+.contact h2,
+.social h2 {
+  color: #251580;
+  text-align: center;
+}
+
+.bungkuscontact .social {
+  width: 300px;
+  padding: 10px;
+  color: white;
+}
+.social .yt,
+.social .ig,
+.social .wa {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5px;
+}
+
+.social p :hover {
+  color: #555;
+}
+
+.social a {
+  text-decoration: none;
 }
